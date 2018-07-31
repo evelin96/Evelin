@@ -1,0 +1,21 @@
+h1 {
+	margin: 0 0 10px 0;
+}
+
+.container {
+	width: 80%;
+	margin: 20px auto;
+	border: 1px solid #ccc;
+	padding: 10px;
+	background: #fff;
+	border-radius: 4px;
+}
+
+body {
+	background: #f7f7f7;
+}
+
+.navigation a {
+	margin-bottom: 10px;
+	display: inline-block;
+}

@@ -1,0 +1,118 @@
+<html>
+<head>
+	<title>Lesson1</title>
+
+	<style type="text/css">
+		.lol {
+			background: #ccc;
+		}
+
+		table {
+			width: 100%;
+			box-shadow: 5px 2px 2px #000;
+		}
+
+		#divide {
+			width: 60%;
+			margin: 50px auto 50px auto;
+		}
+
+		#firstname {
+			border: 2px solid #ccc;
+		}
+	</style>
+
+	<script
+	  src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+	<script type="text/javascript">
+		$( document ).ready(function() {
+
+			$("#submit").click(function() {
+				$("#kep").hide();
+			});
+
+		});
+	</script>
+</head>
+
+<body>
+	<h1>Lesson1</h1>
+	<p>This is lesson1</p>
+
+	<ul>
+		<li>item1</li>
+		<li>item1</li>
+		<li>item1</li>
+		<li>item1</li>
+		<li>item1</li>
+		<li>item1</li>
+		<li>item1</li>
+		<li>item1</li>
+		<li>item1</li>
+		<li>item1</li>
+	</ul>
+
+	<ol>
+		<li>item1</li>
+		<li>item1</li>
+		<li>item1</li>
+		<li>item1</li>
+		<li>item1</li>
+		<li>item1</li>
+		<li>item1</li>
+		<li>item1</li>
+		<li>item1</li>
+		<li>item1</li>
+	</ol>
+
+	<div id="divide">
+		<table>
+			<tr>
+				<td>1</td>
+				<td>lol</td>
+				<td>lol</td>
+				<td>lol</td>
+				<td>lol</td>
+			</tr>
+
+			<tr class="lol">
+				<td>1</td>
+				<td>lol</td>
+				<td>lol</td>
+				<td>lol</td>
+				<td>lol</td>
+			</tr>
+
+			<tr>
+				<td>1</td>
+				<td>lol</td>
+				<td>lol</td>
+				<td>lol</td>
+				<td>lol</td>
+			</tr>
+
+				<tr>
+					<td>1</td>
+					<td>loly</td>
+					<td>loly</td>
+					<td>loly</td>
+					<td>loly</td>
+				</tr>
+		</table>
+
+		<img id="kep" style="margin: 30px 0; text-align: center; display: block;" src="images/lemon-2409365_640-300x300.jpg">
+
+		<form>
+			First name:<br>
+			<input type="text" name="firstname" id="firstname"><br>
+			Last name:<br>
+			<input type="text" name="lastname" id="lastname">
+
+			<input type="button" name="submit" value="submit" id="submit">
+		</form>
+
+	</div>
+</body>
+
+</html>
